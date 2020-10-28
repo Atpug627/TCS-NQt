@@ -1,0 +1,14 @@
+##TCS NQT WATER BUCKET MUG QUESTION CODING ROUND
+x = input("Enter the bucket Size : ")
+y = input("Enter the mug capacity : ")
+x = int(x)
+y = int(y)
+s = x*(80/100)
+print(s)
+z = 0
+
+while z < s:
+  z = z+y
+  print(y)
+else:
+  print("Bucket is Full")
